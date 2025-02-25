@@ -9,9 +9,10 @@ import utils.ExeclUtils;
 import utils.FrameworkUtils;
 import utils.ReportUtils;
 
-public class NewTest2 {
+public class NewTest6 {
 	@Test
 	public void testRegistartion() throws Exception {
+		
 		ReportUtils.intializeReport();
 		ExeclUtils.loadTestData();
 		System.out.println("total no of cases :" + ExeclUtils.data.size());
@@ -23,7 +24,6 @@ public class NewTest2 {
 			HomePage homePage = new HomePage();
 			RegistartionPage registartionPage = new RegistartionPage();
 			BrowserUtils.openBrowser();
-			System.out.println("dummy test case");
 			BrowserUtils.invokeApp();
 			homePage.verifyHomePage();
 			homePage.navigateToRegisterationPage();
