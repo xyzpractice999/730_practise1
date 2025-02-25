@@ -9,7 +9,7 @@ import utils.ExeclUtils;
 import utils.FrameworkUtils;
 import utils.ReportUtils;
 
-public class NewTest3 {
+public class NewTest4 {
 	@Test
 	public void testRegistartion() throws Exception {
 		
